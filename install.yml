@@ -5,6 +5,7 @@
   - role: osxc.packages
     brew_taps:
     - caskroom/fonts
+    - homebrew/dupes
     brew_packages:
     - git
     - zsh
@@ -13,7 +14,21 @@
     - ctags
     - reattach-to-user-namespace
     - tmux
+    - mysql
+    - ansible
+    - mosh
+    - watch
+    - libxslt
+    - libxml2
+    - libiconv
     cask_packages:
     - font-inconsolata-for-powerline
     - iterm2
     - macvim
+    - firefox
+    - google-chrome
+    - dropbox
+    - spectacle
+    - caffeine
+    - mailbox
+    - clipmenu
